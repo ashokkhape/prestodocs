@@ -142,6 +142,9 @@ References
 ==========
 
 #. https://www.cv.nrao.edu/~sransom/PRESTO_search_tutorial.pdf
-#. Please refer to docker documentation for additional docker commands.
+#. Please refer to docker documentation for additional `docker commands`_.
 #. https://github.com/scottransom/presto
+
+.. _docker commands: https://docs.docker.com/engine/reference/commandline/docker/
+
 
