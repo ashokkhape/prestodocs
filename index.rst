@@ -99,12 +99,7 @@ Steps to follow
 
    .. code-block:: shell
 
-      docker run -it -d \
-      -v *folder_to_be_mapped*/mnt \
-      -v /tmp/.X11-unix:/tmp/.X11-unix \
-      -e DISPLAY=$(DISPLAY) \
-      -h $(HOSTNAME) \
-      --name=presto presto-image
+      docker run -it -d -v *folder_to_be_mapped*/mnt -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$(DISPLAY) -h $(HOSTNAME) --name=presto presto-image
 
 #. Verify the status of this container using the command below. The status should be “UP”. 
    In case the status is not “UP” please explore the error messages to understand further.
