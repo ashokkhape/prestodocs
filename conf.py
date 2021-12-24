@@ -19,7 +19,7 @@
 
 project = 'presto'
 copyright = '2021, ashok'
-author = 'ashok'
+author = 'Ashok, Rubana'
 
 
 # -- General configuration ---------------------------------------------------
